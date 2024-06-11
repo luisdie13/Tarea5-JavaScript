@@ -8,82 +8,140 @@ user.leerPropiedad_name = function () {
     console.log('Leyendo la  propiedad name: ', user1.name);
 }
 
-user.leerPropiedad_name();
-console.log(user);
+let user1 = {                    
+    nombre: 'Paola',
+    apellido: 'Ortiz',
+    email: 'paola@company.ru',
+    direccion: {                 
+        municipio: 'Jocotenango',
+        calle: 'Calle ancha',
+        numero: 25,
+    },
+    estado: true,              
+    recuperarClave: function () { 
+        console.log('Recuperar clave...')
+    }
+}
 
-console.log('Ahora cambiaremos cosas del objeto user');
+user1.DPI = '45465454655422482';
 
-const user = { id: 1}; 
+console.log('Soy el objeto user, con la nueva propiedad', user1);
 
-user.name = 'Paola';
+user1.cambiarDireccion = function () {
+    console.log('Cambiando la direcion a: ', user1.direccion);
+}
+
+let user2 = {                    
+    nombre: 'Paolo',
+    apellido: 'Ortega',
+    email: 'paolo@company.ru',
+    direccion: {                
+        municipio: 'Jocotenango',
+        calle: 'Calle ancha',
+        numero: 25,
+    },
+    estado: true,              
+    recuperarClave: function () { 
+        console.log('Recuperar clave...')
+    }
+}
+
+user2.DPI = '8751348434864352';
 
 console.log('Soy el objeto user, con la nueva propiedad', user2);
 
-user.leerPropiedad_name = function () {
-    console.log('Leyendo la  propiedad name: ', user2.name);
+user2.cambiarDireccion = function () {
+    console.log('Cambiando la direcion a: ', user2.direccion);
 }
 
-user.leerPropiedad_name();
-console.log(user);
+let user3 = {                    
+    nombre: 'Juan',
+    apellido: 'Ramirez',
+    email: 'juan@company.ru',
+    direccion: {                 
+        municipio: 'Jocotenango',
+        calle: 'Calle ancha',
+        numero: 25,
+    },
+    estado: true,              
+    recuperarClave: function () { 
+        console.log('Recuperar clave...')
+    }
+}
 
-console.log('Ahora cambiaremos cosas del objeto user');
-
-const user = { id: 1};  
-
-user.name = 'Paola';
+user3.DPI = '8432186121654126';
 
 console.log('Soy el objeto user, con la nueva propiedad', user3);
 
-user.leerPropiedad_name = function () { 
-    console.log('Leyendo la  propiedad name: ', user3.name);
+user3.cambiarDireccion = function () {
+    console.log('Cambiando la direcion a: ', user3.direccion);
 }
 
-user.leerPropiedad_name();
-console.log(user);
+let user4 = {                    
+    nombre: 'Veronica',
+    apellido: 'Valles',
+    email: 'veronica@company.ru',
+    direccion: {                
+        municipio: 'Jocotenango',
+        calle: 'Calle ancha',
+        numero: 25,
+    },
+    estado: true,              
+    recuperarClave: function () { 
+        console.log('Recuperar clave...')
+    }
+}
 
-console.log('Ahora cambiaremos cosas del objeto user');
-
-const user = { id: 1}; 
-
-user.name = 'Paola';
+user4.DPI = '21598465498756468';
 
 console.log('Soy el objeto user, con la nueva propiedad', user4);
 
-user.leerPropiedad_name = function () { 
-    console.log('Leyendo la  propiedad name: ', user4.name);
+user4.cambiarDireccion = function () {
+    console.log('Cambiando la direcion a: ', user4.direccion);
 }
 
-user.leerPropiedad_name();
-console.log(user);
+let user5 = {                    
+    nombre: 'Luis',
+    apellido: 'Acevedo',
+    email: 'luis@company.ru',
+    direccion: {                 
+        municipio: 'Jocotenango',
+        calle: 'Calle ancha',
+        numero: 25,
+    },
+    estado: true,              
+    recuperarClave: function () { 
+        console.log('Recuperar clave...')
+    }
+}
 
-console.log('Ahora cambiaremos cosas del objeto user');
-
-const user = { id: 1}; 
-
-user.name = 'Paola';
+user5.DPI = '21689835498564598';
 
 console.log('Soy el objeto user, con la nueva propiedad', user5);
 
-user.leerPropiedad_name = function () { 
-    console.log('Leyendo la  propiedad name: ', user5.name);
+user5.cambiarDireccion = function () {
+    console.log('Cambiando la direcion a: ', user5.direccion);
 }
 
-user.leerPropiedad_name();
-console.log(user);
+let user6 = {                    
+    nombre: 'Pedro',
+    apellido: 'Garcia',
+    email: 'pedro@company.ru',
+    direccion: {                
+        municipio: 'Jocotenango',
+        calle: 'Calle ancha',
+        numero: 25,
+    },
+    estado: true,              
+    recuperarClave: function () { 
+        console.log('Recuperar clave...')
+    }
+}
 
-console.log('Ahora cambiaremos cosas del objeto user');
-
-const user = { id: 1}; 
-
-user.name = 'Paola';
+user6.DPI = '45465454655422482';
 
 console.log('Soy el objeto user, con la nueva propiedad', user6);
 
-user.leerPropiedad_name = function () { 
-    console.log('Leyendo la  propiedad name: ', user6.name);
+user6.cambiarDireccion = function () {
+    console.log('Cambiando la direcion a: ', user6.direccion);
 }
-
-user.leerPropiedad_name();
-console.log(user);
-
-console.log('Ahora cambiaremos cosas del objeto user');
